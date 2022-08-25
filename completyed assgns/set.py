@@ -1,0 +1,12 @@
+
+h=set((2,7,8,3,2,10,91,84,92,78,1,1,2,8))
+t=set((11,9,2,6,8,10,92,84))
+print(type(h))
+print(h)
+print(h.copy())
+print(h)
+print(h.update(h,t))
+print(h)
+print(h.pop())
+print(h.update(h,t))
+print(h)
